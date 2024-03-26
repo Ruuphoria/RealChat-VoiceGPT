@@ -1,0 +1,10 @@
+
+# RealChat-VoiceGPT\n\n[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)\n\nRealChat-VoiceGPT is an open-source project aiming to simulate real human voice interactions with ChatGPT with lifelike experience for users. It leverages advanced technologies including ElevenLabs AI text-to-speech, OpenAI's Whisper, GPT3.5, and ElevenLabs Prime Voice AI.\n\n## Features\n\n- Smooth integration with ElevenLabs AI text-to-speech and OpenAI's Whisper for human-like voice generation.\n- An interactive web application created using Flask and React facilitating user-friendly interaction with ChatGPT.\n- Integration with ElevenLabs Prime Voice AI for improved voice processing and natural language understanding.\n- Easy setup and deployment with Docker, allowing quick deployment on different platforms.\n\n## Installation\n\nTo run RealChat-VoiceGPT locally, follow these steps:\n\n1. Clone the repository:\n\n```
+git clone https://github.com/Ruuphoria/RealChat-VoiceGPT.git\n```
+2. Navigate to the project directory:\n\n```
+cd RealChat-VoiceGPT\n```
+\n3. Install the required dependencies:\n\n```
+pip install -r requirements.txt\n```
+\n4. Start the development server:\n\n```
+flask run\n```
+\n5. Access the application in your web browser at http://localhost:5000.\n\nFor detailed deployment instructions and additional configuration options, please refer to the documentation.\n\n## Usage\n\nOnce the application is up and running, you can engage in lifelike conversations with ChatGPT. Simply type or speak your message to utilize the Speech Recognition API, the ChatGPT responds using ElevenLabs AI text-to-speech, simulating a real human voice. Explore the application to experience the capabilities of RealChat-VoiceGPT and discover new possibilities for voice-based AI interactions.\n\n## Contributing\n\nContributions to RealChat-VoiceGPT are welcome and encouraged! To contribute, please follow our contribution guidelines.\n\n## License\n\nRealChat-VoiceGPT is licenced under the MIT License.
